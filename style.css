@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color: black;}
+
+.videoContainer {	
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#video {
+  width: 50vw;
+}
