@@ -5,17 +5,23 @@ body {background-color: black;}
 .page {	
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 95vh;
   padding: 10px; 
 }
 
+.videoContainer {
+	padding: 5px;
+	max-width: 1400px;
+    width: 75vw;
+	margin-top: 10px;
+}
+
 
 #video {
-  max-width: 1400px;
-  width: 75vw;
-  padding: 10px; 
+  height: 100%;
+  width: 100%;
 }
 
 .social {
@@ -38,4 +44,8 @@ body {background-color: black;}
 
 .link:hover {
 	opacity: 60%
+}
+
+#spacer {
+	height: 5vh;
 }
