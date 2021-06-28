@@ -2,13 +2,40 @@
 /* CSS Document */
 body {background-color: black;}
 
-.videoContainer {	
+.page {	
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 95vh;
+  padding 10px; 
 }
 
+
 #video {
+  max-width: 1200px;
   width: 75vw;
+  padding: 10px; 
+}
+
+.social {
+	margin: 40px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.link {
+	align-self: center;
+}
+
+.button-image{
+	max-width: 400px;
+	width: 50vw;
+}
+
+.link:hover {
+	opacity: 60%
 }
