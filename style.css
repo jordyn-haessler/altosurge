@@ -14,7 +14,7 @@ body {background-color: black;}
 .videoContainer {
 	padding: 5px;
 	max-width: 1000px;
-    width: 75vw;
+    width: 100vw;
 	margin-top: 10px;
 }
 
@@ -38,8 +38,8 @@ body {background-color: black;}
 }
 
 .button-image {
-	max-width: 600px;
-	width: 50vw;
+	max-width: 700px;
+	width: 80vw;
 }
 
 .link:hover {
