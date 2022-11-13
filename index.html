@@ -1,38 +1,247 @@
 <!doctype html>
 <html>
 <head>
-	<link rel="shortcut icon" type="image/png" href="media/favicon.png"/>
-	<link rel="stylesheet" href="style.css">
-	<meta charset="utf-8">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://altosurge.com/">
-	<meta property="og:title" content="ALTOSURGE">
-	<meta property="og:description" content="Electronic artist collective...">
-	<meta property="og:image" content="https://www.altosurge.com/media/preview.jpg">
-	<title>ALTOSURGE</title>	
+<meta charset="utf-8">
+<title>ATOSURGE</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="media/favicon.ico">
+<script src="script.js" defer></script>
 </head>
+
 <body>
-	<div class="page">
-		<h1 id="spacer"></h1>
-		<div class="videoContainer">
-			<img id="video" src="media/altoballs.gif"/>
-		</div>
-		<div class="social"><br>
-			<a href="https://www.etsy.com/listing/1108488618/altosurge-pillar-crewneck-sweatshirt" target="_blank" class="link"><img src="media/PILLAR.gif" class="button-image"/></a>
-			<a href="https://www.etsy.com/listing/1122418959/altosurge-font-oversized-tee" target="_blank" class="link"><img src="media/OVERSIZED_TEE.gif" class="button-image"/></a>
-			<a href="https://www.etsy.com/listing/1122438769/altosurge-orbit-mens-tee" target="_blank" class="link"><img src="media/MENS_TEE.gif" class="button-image"/></a>
-			<a href="https://www.etsy.com/listing/1122431739/altosurge-orbit-unisex-tee" target="_blank" class="link"><img src="media/UNISEX_TEE.gif" class="button-image"/></a>
-			<a href="https://www.etsy.com/listing/1108459208/altosurge-star-embroidered-dark-matter" target="_blank" class="link"><img src="media/DARK_MATTER.gif" class="button-image"/></a>
-			<a href="https://www.etsy.com/listing/1108637096/altosurge-star-embroidered-deep-nebula" target="_blank" class="link"><img src="media/DEEP_NEBULA.gif" class="button-image"/></a>
-			<a href="https://www.etsy.com/listing/1108469092/altosurge-star-unstructured-cap" target="_blank" class="link"><img src="media/BLACK_HAT.gif" class="button-image"/></a>
-			<a href="https://www.etsy.com/listing/1108476048/altosurge-star-unstructured-cap" target="_blank" class="link"><img src="media/WHITE_HAT.gif" class="button-image"/></a>
-			<a href="https://www.etsy.com/listing/1122445061/altosurge-orbit-24x36-in-poster" target="_blank" class="link"><img src="media/BIG_POSTER.gif" class="button-image"/></a>
-			<a href="https://www.etsy.com/listing/1122451291/altosurge-orbit-12x18-in-poster" target="_blank" class="link"><img src="media/SMALL_POSTER.gif" class="button-image"/></a>
+	
+	<!-- HEADER AND TABS -->
+	
+	<div class="header_container">
+		<div data-tab-target="#home" class="header_img">
+			<img class="top_image_header" src="media/header_logo.png" width="600" height="150" alt=""/>
+			<img class="image_header_hover" src="media/header_thing.gif" width="600" height="150" alt=""/>
 		</div>
 	</div>
+	
+	<div class="tab_container">
+		<ul class="tabs">
+			<li data-tab-target="#artists" class="nonactive tab">
+				<img class="tab_image" src="media/tabs/artists.png" width="250" height="50" alt=""/>
+				<img class="tab_image_active" src="media/tabs/artists_active.png" width="250" height="50" alt=""/>
+			</li>
+			<li data-tab-target="#releases" class="nonactive tab">
+				<img class="tab_image" src="media/tabs/releases.png" width="250" height="50" alt=""/>
+				<img class="tab_image_active" src="media/tabs/releases_active.png" width="250" height="50" alt=""/>
+			</li>
+			<li data-tab-target="#merch" class="nonactive tab">
+				<img class="tab_image" src="media/tabs/merch.png" width="250" height="50" alt=""/>
+				<img class="tab_image_active" src="media/tabs/merch_active.png" width="250" height="50" alt=""/>
+			</li>
+			<li data-tab-target="#socials" class="nonactive tab">
+				<img class="tab_image" src="media/tabs/socials.png" width="250" height="50" alt=""/>
+				<img class="tab_image_active" src="media/tabs/socials_active.png" width="250" height="50" alt=""/>
+			</li>
+			<li data-tab-target="#submit" class="nonactive tab">
+				<img class="tab_image" src="media/tabs/submit.png" width="250" height="50" alt=""/>
+				<img class="tab_image_active" src="media/tabs/submit_active.png" width="250" height="50" alt=""/>
+			</li>
+		</ul>
+	</div>
+	
+	<!-- HOME PAGE -->
+	
+	<div id="Tab-Content">
+		<div id="home" data-tab-content class="active">
+			<div id="home_content">
+				<div id="release_container">
+					<div id="release_video">
+						 <a href="https://en.wikipedia.org/wiki/Trollface#/media/File:Trollface_non-free.png" target="_blank">
+							<img src="media/release.png" width="650" height="650" alt=""/>
+						</a>
+					</div>
+					<div id="artist_block">
+						<a href="https://soundcloud.com/altosurge" target="_blank">
+							<img src="media/artists/altosurge.png" width="300" height="200" alt=""/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- ARTISTS PAGE -->
+	
+	<div id="Tab-Content">
+		<div id="artists" data-tab-content>
+			<div id="artist_content">
+				<div id="artist_block">
+					<a href="https://1821sound.carrd.co" target="_blank">
+						<img src="media/artists/1821.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://linktr.ee/AveenMusic" target="_blank">
+						<img src="media/artists/aveen.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://bani-redux.carrd.co" target="_blank">
+						<img src="media/artists/bani.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://linktr.ee/daua.mp3" target="_blank">
+						<img src="media/artists/daua.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://ecmr.carrd.co" target="_blank">
+						<img src="media/artists/ecmr.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://sites.google.com/view/fax1015/home" target="_blank">
+						<img src="media/artists/fax.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://freezigd.carrd.co/" target="_blank">
+						<img src="media/artists/freezi.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://soundcloud.com/kamisama1" target="_blank">
+						<img src="media/artists/kami.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://soundcloud.com/kyumay" target="_blank">
+						<img src="media/artists/kyumay.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://linktr.ee/PIPVR" target="_blank">
+						<img src="media/artists/pipvr.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://linktr.ee/SuperZrussell" target="_blank">
+						<img src="media/artists/szr.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+				<div id="artist_block">
+					<a href="https://volitionfm.carrd.co/" target="_blank">
+						<img src="media/artists/volition.png" width="300" height="200" alt=""/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- RELEASES PAGE -->
+	
+	<div id="Tab-Content">
+		<div id="releases" data-tab-content>
+			<div id="releases_content">
+				<div id="release_block">
+					<a href="https://1821.fanlink.to/aerial" target="_blank">
+						<img id=release_img src="media/releases/1821aerial.jpg" width="300" height="300" alt=""/>
+					</a>
+				</div>
+				<div id="release_block">
+					<a href="https://soundcloud.com/bani_redux/at-most-fear" target="_blank">
+						<img id=release_img src="media/releases/banifear.jpg" width="300" height="300" alt=""/>
+					</a>
+				</div>
+				<div id="release_block">
+					<a href="https://soundcloud.com/superzrussell/sets/reality" target="_blank">
+						<img id=release_img src="media/releases/szrreality.jpg" width="300" height="300" alt=""/>
+					</a>
+				</div>
+				<div id="release_block">
+					<a href="https://voli.fanlink.to/thisisvolition" target="_blank">
+						<img id=release_img src="media/releases/volithisis.jpg" width="300" height="300" alt=""/>
+					</a>
+				</div>
+				<div id="release_block">
+					<a href="https://szr.fanlink.to/synergy" target="_blank">
+						<img id=release_img src="media/releases/szrsynergy.jpg" width="300" height="300" alt=""/>
+					</a>
+				</div>
+				<div id="release_block">
+					<a href="https://altosurge.fanlink.to/vol2" target="_blank">
+						<img id=release_img src="media/releases/alto2.jpg" width="300" height="300" alt=""/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- MERCH PAGE -->
+	
+	<div id="Tab-Content">
+		<div id="merch" data-tab-content>
+			<div id="merch_content">
+				<div id="release_container">
+					<div id="merch_video">
+						<img src="media/merch/2023.png" width="800" height="160" alt=""/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- SOCIALS PAGE -->
+	
+	<div id="Tab-Content">
+		<div id="socials" data-tab-content>
+			<div id="socials_content">
+				<div class="socials_img">
+					<a href="https://www.youtube.com/channel/UCwlzunLQG8bIxww-EeLuHSA" target="_blank">
+						<img class="top_image_header" src="media/socials/youtube.png" width="600" height="120" alt=""/>
+						<img class="image_header_hover" src="media/socials/youtube_hover.png" width="600" height="120" alt=""/>
+					</a>
+				</div>
+				<div class="socials_img">
+					<a href="https://www.twitch.tv/altosurge" target="_blank">
+						<img class="top_image_header" src="media/socials/twitch.png" width="600" height="120" alt=""/>
+						<img class="image_header_hover" src="media/socials/twitch_hover.png" width="600" height="120" alt=""/>
+					</a>
+				</div>
+				<div class="socials_img">
+					<a href="https://twitter.com/altosurge" target="_blank">
+						<img class="top_image_header" src="media/socials/twitter.png" width="600" height="120" alt=""/>
+						<img class="image_header_hover" src="media/socials/twitter_hover.png" width="600" height="120" alt=""/>
+					</a>
+				</div>
+				<div class="socials_img">
+					<a href="https://www.instagram.com/altosurge" target="_blank">
+						<img class="top_image_header" src="media/socials/instagram.png" width="600" height="120" alt=""/>
+						<img class="image_header_hover" src="media/socials/instagram_hover.png" width="600" height="120" alt=""/>
+					</a>
+				</div>
+				<div class="socials_img">
+					<a href="https://disboard.org/server/976845024560054272" target="_blank">
+						<img class="top_image_header" src="media/socials/discord.png" width="600" height="120" alt=""/>
+						<img class="image_header_hover" src="media/socials/discord_hover.png" width="600" height="120" alt=""/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- SUBMIT PAGE -->
+	
+	<div id="Tab-Content">
+		<div id="submit" data-tab-content>
+			<div id="merch_content">
+				<div id="release_container">
+					<div id="merch_video">
+						<img src="media/submissions/submissions_closed.png" width="800" height="160" alt=""/>
+					</div>
+					<div id="merch_video">
+						<img src="media/submissions/soon.png" width="800" height="160" alt=""/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 </body>
-</html> 
-
-<script>
-	document.getElementById("video").play();
-</script>
+</html>
