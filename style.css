@@ -15,19 +15,25 @@
 }
 .tabs{
 	cursor: pointer;
-	padding: 10px;
-	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	display: flex;
 }
 .tab{
 	position: relative;
+	max-width: 250px;
+	width: 18vw;
 }
 .tab_image{
 	position: absolute;
+	max-width: 250px;
+	width: 18vw;
 }
 .tab_image_active{
 	position: relative;
-	opacity: 0
+	max-width: 250px;
+	width: 18vw;
+	opacity: 0;	
 }
 
 .tab_image_active:hover{
@@ -48,6 +54,8 @@
 }
 .heeader_img{
 	position: relative;
+	max-width: 600px;
+	width: 90vw;
 	cursor: pointer;
 	padding: 10px;
 	float: left;
@@ -59,9 +67,13 @@
 
 .top_image_header{
 	position: absolute;
+	max-width: 600px;
+	width: 90vw;
 }
 .image_header_hover{
 	position: relative;
+	max-width: 600px;
+	width: 90vw;
 	opacity: 0;
 }
 .image_header_hover:hover{
@@ -71,7 +83,7 @@
 
 #artist_content{
 	display: flex;
-	padding: 50px;
+	padding-top: 50px;
 	margin: auto;
 	max-width: 50vw;
 	flex-wrap: wrap;
@@ -85,15 +97,39 @@
 #artist_block:hover{
 	opacity: 1;
 	cursor: pointer;
+	margin: auto;
 }
 #artist_block:hover img{
   	-webkit-filter: drop-shadow(0 0 10px white);
   	filter: drop-shadow(0 0 10px white);
 }
 
+.artist_img{
+	max-width: 300px;
+	width: 50vw;
+}
 
 #home_content{
 	margin: auto;
+}
+
+.home_img{
+	max-width: 650px;
+	width: 50vw;
+}
+#artist_home_block{
+	opacity: .85;
+	padding-top: 50px;
+	margin: auto;
+}
+#artist_home_block:hover{
+	opacity: 1;
+	cursor: pointer;
+	margin: auto;
+}
+#artist_home_block:hover img{
+  	-webkit-filter: drop-shadow(0 0 10px white);
+  	filter: drop-shadow(0 0 10px white);
 }
 
 #release_container{
@@ -128,9 +164,16 @@
 }
 
 #merch_video{
+	max-width: 800px;
+	width: 50vw;
 	margin: auto;
 	padding-top: 10px;
 	opacity: .5;
+}
+
+.submissions_img{
+	max-width: 800px;
+	width: 50vw;
 }
 
 #socials_content{
@@ -141,6 +184,8 @@
 }
 
 .socials_img{
+	max-width: 600px;
+	width: 90vw;
 	position: relative;
 	cursor: pointer;
 	padding: 0px;
