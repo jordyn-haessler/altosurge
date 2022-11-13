@@ -29,6 +29,7 @@
 	position: relative;
 	opacity: 0
 }
+
 .tab_image_active:hover{
 	opacity: 1
 }
@@ -77,12 +78,17 @@
 }
 
 #artist_block{
+	opacity: .85;
 	padding: 50px;
 	margin: auto;
 }
 #artist_block:hover{
-	opacity: .5;
+	opacity: 1;
 	cursor: pointer;
+}
+#artist_block:hover img{
+  	-webkit-filter: drop-shadow(0 0 10px white);
+  	filter: drop-shadow(0 0 10px white);
 }
 
 
@@ -103,8 +109,12 @@
 	padding-top: 10px;
 }
 #release_video:hover{
-	opacity: .5;
+	opacity: .8;
 	cursor: pointer;
+}
+#release_video:hover img{
+  	-webkit-filter: drop-shadow(0 0 10px white);
+  	filter: drop-shadow(0 0 10px white);
 }
 
 
@@ -156,7 +166,6 @@
 }
 
 #release_block:hover img{
-	width: 300px;
   	-webkit-filter: drop-shadow(0 0 10px white);
   	filter: drop-shadow(0 0 10px white);
 }
