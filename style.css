@@ -171,9 +171,41 @@
 	opacity: .5;
 }
 
+#submissions_video{
+	max-width: 800px;
+	width: 50vw;
+	margin: auto;
+	padding-top: 10px;
+	opacity: 1;
+}
+
 .submissions_img{
 	max-width: 800px;
 	width: 50vw;
+}
+
+.submissions_download_img{
+	max-width: 600px;
+	width: 90vw;
+	position: relative;
+	cursor: pointer;
+	padding: 0px;
+	margin: auto;
+}
+.top_image_download{
+	position: absolute;
+	max-width: 600px;
+	width: 90vw;
+}
+.image_download_hover{
+	position: relative;
+	max-width: 600px;
+	width: 90vw;
+	opacity: 0;
+}
+.image_download_hover:hover{
+	opacity: 1;
+	cursor: pointer;
 }
 
 #socials_content{
@@ -223,3 +255,4 @@ body{
 	display: flex;
 	flex-direction: column;
 }
+
